@@ -1,4 +1,4 @@
-# A mongodb connector
+# A mongodb and postgres connector
 
 When you use an uri for mongo db and you want a quick peek to see the databases.
 
