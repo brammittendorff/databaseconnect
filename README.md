@@ -1,6 +1,6 @@
 # A mongodb connector
 
-When you use an url for mongo db and you want a quick peek to see the databases and if its connecting you can use this application.
+When you use an uri for mongo db and you want a quick peek to see the databases.
 
 ## Requirements
 
