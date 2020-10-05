@@ -51,7 +51,7 @@ async function postgres() {
 
 // Determin the type of protocol 
 protocol = parsedUrl.protocol.slice(0,-1);
-if (protocol == 'mongodb+srv') {
+if (protocol == 'mongodb+srv' || protocol == 'mongodb') {
     mongo().catch(console.error);
 } else if (protocol == 'postgres') {
     postgres().catch(console.error)

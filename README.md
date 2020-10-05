@@ -18,7 +18,10 @@ npm install
 
 ## Usage
 
+Protocols supported:
+
 ```
 node index.js "mongodb+srv://user:pass@myserver.com"
+node index.js "mongodb://user:pass@myserver.com"
 node index.js "postgres://user:pass@myserver.com"
 ```
